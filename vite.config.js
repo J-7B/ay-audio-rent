@@ -23,5 +23,5 @@ export default defineConfig({
   },
 
   plugins: [react(), svgr()],
-  base: "/ay-audiorent"
+  base: "/ay-audio-rent/"
 });
