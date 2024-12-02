@@ -1,7 +1,6 @@
 {
   "name": "edited-ay-sr",
   "homepage": "https://j-7b.github.io/ay-audio-rent/",
-
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -16,7 +15,6 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
     "clsx": "^2.1.1",
-    "gh-pages": "^6.2.0",
     "lodash.throttle": "^4.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -36,6 +34,7 @@
     "eslint-plugin-react": "^7.37.1",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.13",
+    "gh-pages": "^6.2.0",
     "globals": "^15.11.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14",
