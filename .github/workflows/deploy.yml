@@ -43,6 +43,8 @@ jobs:
         with:
           name: production-files
           path: ./dist
+          name: Test artifact download
+         run: ls -R
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
