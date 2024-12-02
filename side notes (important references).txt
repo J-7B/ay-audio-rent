@@ -1,0 +1,51 @@
+nav { width: 100% bacground: #333 color:#FFF} convert this into tailwind css
+
+
+
+relative flex min-h-screen flex-col justify-center overflow-hidden //bg-gray-50(del this to make the hero bg transparent ) py-6 sm:py-12 px-10 sm:px-16
+
+
+btn bg-white text-black px-10 py-4 text-lg rounded-full cursor-pointer border-0 outline-0
+
+
+
+
+responsive nav bar  (gpt
+4.0)
+
+<nav class="bg-gray-800 text-white w-full">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="flex justify-between items-center py-4">
+      <div class="text-lg font-semibold">YourLogo</div>
+      <div class="hidden md:flex space-x-4">
+        <a href="#" class="hover:text-gray-300">home</a>
+        <a href="#" class="hover:text-gray-300">About</a>
+        <a href="#" class="hover:text-gray-300">Services</a>
+        <a href="#" class="hover:text-gray-300">Contact</a>
+      </div>
+      <div class="md:hidden">
+        <button class="text-white focus:outline-none">
+          <!-- Icon for mobile menu (e.g., hamburger icon) -->
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
